@@ -4,4 +4,5 @@ description="Two new factions and four campaigns set in an Ice Age world. Experi
 version="1.0.0"
 type="campaign_mp_scenario"
 tags="faction,campaign,ice,fantasy"
+min_wesnoth_version="1.18.0"
 email="support@example.com"
