@@ -1,6 +1,10 @@
-# Ice Age - Battle for Wesnoth Add-on
+# Wesnoth: Ice Age Expansion
 
-An epic add-on for Battle for Wesnoth featuring two new factions and four interconnected campaigns set in a frozen world.
+A comprehensive Battle for Wesnoth expansion featuring two new ice-themed factions and four interconnected campaigns set in a frozen world.
+
+## Project Overview
+
+This expansion introduces the frozen northern lands beyond the known world, where ancient ice civilizations have thrived in isolation until recent events threaten their very existence. Players will experience an epic saga through the eyes of ice folk heroes as they face invasion, survival, and the struggle to restore balance to their world.
 
 ## Features
 
@@ -32,7 +36,7 @@ Mystical beings born from the eternal ice, commanding the powers of frost and co
 - Strong cold resistance but weak to fire
 - Powerful but expensive units
 
-### Four Epic Campaigns
+### Implemented Campaigns (Current Status)
 
 #### 1. The Frozen Wastes (Introductory)
 **Difficulty:** Easy  
@@ -62,6 +66,14 @@ Experience the ice age from the perspective of Glacius, an ancient Frost Lord. D
 
 With the Frost King defeated, work with the Ice Dwellers to restore balance to the world and end the eternal winter once and for all.
 
+### Future Expansion Plans
+The current implementation provides a solid foundation. Future plans include expanding to the original vision:
+
+- **Extended campaign series** with multi-generational storyline
+- **Additional scenarios** bringing total to 70+
+- **Complex political intrigue** involving all major Wesnoth factions
+- **Enhanced mechanics** and special abilities
+
 ## Installation
 
 1. Download or clone this repository
@@ -73,6 +85,22 @@ With the Frost King defeated, work with the Ice Dwellers to restore balance to t
 4. The campaigns will appear in the campaign selection menu
 5. The factions will be available in multiplayer
 
+## Development Status
+
+- ✅ **Phase 1:** Foundation & Design - Mythology research, unit templates, campaign summaries
+- ✅ **Phase 2:** Technical Implementation - WML structure, unit coding, basic campaigns
+- 📋 **Phase 3:** Campaign Enhancement - Expanded scenarios, advanced scripting
+- ⏳ **Phase 4:** Asset Creation - Custom graphics, sounds, portraits
+- ⏳ **Phase 5:** Testing & Balancing - Community testing, refinement
+- ⏳ **Phase 6:** Extended Content - Multi-generational campaigns
+
+## Project Files
+
+- `faction_units_template.md` - Unit design template with Dunefolk reference
+- `campaign_summaries.md` - Detailed summaries of planned expanded campaigns
+- `project_plan.md` - Complete development roadmap and technical details
+- `STRUCTURE.md` - Technical documentation of current implementation
+
 ## Story Overview
 
 The world is gripped by an eternal winter. The Frost Clans, hardy northern warriors, struggle to survive as the cold grows ever more severe. Ancient Ice Dwellers, beings of pure frozen magic, awaken from their slumber. At the center of it all looms the Frost King, an ancient entity seeking to freeze the world forever.
@@ -83,13 +111,13 @@ Through four interconnected campaigns, experience an epic tale of survival, alli
 
 **Author:** Jose Geraldino  
 **Version:** 1.0.0  
-**License:** MIT
+**License:** GPL v2+ (code), CC-BY-SA (art assets)
 
 ## Technical Details
 
 - Compatible with Battle for Wesnoth 1.14+
 - Uses standard Wesnoth WML (Wesnoth Markup Language)
-- Total of 17 scenarios across 4 campaigns
+- Current: 17 scenarios across 4 campaigns
 - 15 unique unit types (7 Frost Clans, 8 Ice Dwellers)
 
 ## Contributing
