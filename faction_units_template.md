@@ -1,140 +1,125 @@
-# Ice Age Factions - Unit Design Template
+# Ice Age Factions - Unit Overview
 
-## Faction Structure Template
+## Legend - Unit Status Icons
 
-### [FACTION NAME]
-**Cultural Inspiration:** [Mythology source]
-**Terrain Affinity:** [Preferred terrain types]
-**Overall Strategy:** [Faction's general combat approach]
+- **📝 Planned**: Only basic information in this file
+- **⚙️ Configuration Files Created**: The configuration files were created and the unit is selectable or upgradable in the game
+- **🎨 All Animation Images Added**: We successfully implemented the animation images
+- **✅ Fully Implemented**: All images there, upgradable functions, attacks and weaknesses were manually tested by the user
 
----
+## **❄️ All Units**
 
-## Unit Categories
+| **Unit Name** | **Faction** | **Level** | **HP** | **MP** | **Cost** | **Status** | **Design Document** |
+|---|---|---|---|---|---|---|---|
+| **Iceborn Warrior** | Frost Clans | 1 | 32 | 5 | 14 | 📝 | [Iceborn Warrior Line](unit-designs/iceborn-warrior-line-design.md) |
+| Winterbane Champion | Frost Clans | 2 | 46 | 5 | 28 | 📝 | [Iceborn Warrior Line](unit-designs/iceborn-warrior-line-design.md) |
+| Rimeguard Chieftain | Frost Clans | 3 | 52 | 5 | 60 | 📝 | [Iceborn Warrior Line](unit-designs/iceborn-warrior-line-design.md) |
+| Glacial Warlord | Frost Clans | 4 | 68 | 6 | 90 | 📝 | [Iceborn Warrior Line](unit-designs/iceborn-warrior-line-design.md) |
+| **Tundra Scout** | Frost Clans | 1 | 28 | 6 | 15 | 📝 | [Tundra Scout Line](unit-designs/tundra-scout-line-design.md) |
+| Blizzard Ranger | Frost Clans | 2 | 38 | 6 | 32 | 📝 | [Tundra Scout Line](unit-designs/tundra-scout-line-design.md) |
+| Avalanche Hunter | Frost Clans | 3 | 48 | 7 | 50 | 📝 | [Tundra Scout Line](unit-designs/tundra-scout-line-design.md) |
+| Whiteout Pathfinder | Frost Clans | 4 | 58 | 8 | 75 | 📝 | [Tundra Scout Line](unit-designs/tundra-scout-line-design.md) |
+| **Pack Rider** | Frost Clans | 1 | 34 | 7 | 18 | 📝 | [Pack Rider Line](unit-designs/pack-rider-line-design.md) |
+| Wolf Ranger | Frost Clans | 2 | 48 | 8 | 38 | 📝 | [Pack Rider Line](unit-designs/pack-rider-line-design.md) |
+| Storm Rider | Frost Clans | 3 | 62 | 9 | 60 | 📝 | [Pack Rider Line](unit-designs/pack-rider-line-design.md) |
+| Blizzard Lord | Frost Clans | 4 | 78 | 10 | 85 | 📝 | [Pack Rider Line](unit-designs/pack-rider-line-design.md) |
 
-### Basic Infantry
-| Unit Name | Level | HP | Movement | Cost | Alignment | Description |
-|-----------|-------|----|-----------|----|-----------|-------------|
-| [Unit] | 1 | XX | X | XX | [lawful/neutral/chaotic] | [Brief description] |
+| **Bear Rider** | Frost Clans | 1 | 42 | 4 | 22 | 📝 | [Bear Rider Line](unit-designs/bear-rider-design.md) |
+| Dire Bear Rider | Frost Clans | 2 | 58 | 4 | 45 | 📝 | [Bear Rider Line](unit-designs/bear-rider-design.md) |
+| Ancient Bear Lord | Frost Clans | 3 | 74 | 5 | 70 | 📝 | [Bear Rider Line](unit-designs/bear-rider-design.md) |
+| Primal Bear Champion | Frost Clans | 4 | 92 | 5 | 100 | 📝 | [Bear Rider Line](unit-designs/bear-rider-design.md) |
+| **Iceguard Spearman** | Frost Clans | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Winterheart Shaman** | Frost Clans | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Snowfall Trapper** | Frost Clans | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Crystalborn Elemental** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Glacial Wraith** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Permafrost Beast** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Shimmer Sprite** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Hoarfrost Mage** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Icewall Guardian** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Coldmist Stalker** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
 
-**Abilities:** [Special abilities]
-**Attacks:** [Attack types and damage]
-**Resistances:** [Damage resistances]
-**Weaknesses:** [Damage vulnerabilities]
-**Terrain Performance:** [Movement/defense on different terrains]
-
-### Advanced Infantry
-[Same format as Basic Infantry]
-
-### Ranged Units
-[Same format as Basic Infantry]
-
-### Mounted/Flying Units
-[Same format as Basic Infantry]
-
-### Magical Units
-[Same format as Basic Infantry]
-
-### Special/Unique Units
-[Same format as Basic Infantry]
-
----
-
-## Example: Dunefolk Faction Reference
-
-### Dunefolk
-**Cultural Inspiration:** Arabian/Middle Eastern desert peoples
-**Terrain Affinity:** Desert, Sand, Hills
-**Overall Strategy:** Mobile hit-and-run tactics, strong in desert environments
-
-### Basic Infantry
-
-| Unit Name | Level | HP | Movement | Cost | Alignment | Description |
-|-----------|-------|----|-----------|----|-----------|-------------|
-| Dunefolk Rover | 1 | 28 | 5 | 16 | lawful | Swift desert scout with scimitar |
-| Dunefolk Skirmisher | 1 | 26 | 5 | 15 | neutral | Light warrior with javelin and blade |
-
-**Rover Abilities:** None
-**Rover Attacks:** 
-- Scimitar: 6-3 melee blade
-**Rover Resistances:** None notable
-**Rover Weaknesses:** Standard
-**Rover Terrain Performance:** Excellent in desert/sand (+60% defense), poor in water/swamp
-
-**Skirmisher Abilities:** None
-**Skirmisher Attacks:**
-- Javelin: 6-2 ranged pierce
-- Scimitar: 5-2 melee blade
-**Skirmisher Resistances:** None notable
-**Skirmisher Weaknesses:** Standard
-**Skirmisher Terrain Performance:** Good mobility in desert, struggles in forest/mountains
-
-### Advanced Infantry
-
-| Unit Name | Level | HP | Movement | Cost | Alignment | Description |
-|-----------|-------|----|-----------|----|-----------|-------------|
-| Dunefolk Sunderer | 2 | 44 | 5 | 31 | lawful | Elite desert warrior with heavy scimitar |
-| Dunefolk Hunter | 2 | 38 | 5 | 31 | neutral | Skilled marksman with bow and blade |
-
-### Ranged Units
-
-| Unit Name | Level | HP | Movement | Cost | Alignment | Description |
-|-----------|-------|----|-----------|----|-----------|-------------|
-| Dunefolk Arbalester | 1 | 30 | 4 | 17 | neutral | Crossbow specialist |
-
-### Mounted Units
-
-| Unit Name | Level | HP | Movement | Cost | Alignment | Description |
-|-----------|-------|----|-----------|----|-----------|-------------|
-| Dunefolk Rider | 1 | 34 | 7 | 20 | lawful | Camel-mounted warrior |
-
-**Rider Abilities:** None
-**Rider Attacks:**
-- Spear: 11-2 melee pierce
-**Rider Resistances:** None notable  
-**Rider Weaknesses:** Standard
-**Rider Terrain Performance:** Excellent desert mobility, charge bonus on flat terrain
-
-### Magical Units
-
-| Unit Name | Level | HP | Movement | Cost | Alignment | Description |
-|-----------|-------|----|-----------|----|-----------|-------------|
-| Dunefolk Apothecary | 1 | 22 | 4 | 15 | neutral | Healer and poison specialist |
-
-**Apothecary Abilities:** Heals +4, Cures poison
-**Apothecary Attacks:**
-- Staff: 4-2 melee impact
-- Poison dart: 2-3 ranged pierce (poison)
+**Recruitable Units**: Bold units are Level 1 (recruitable)  
+**Target**: 7 recruitable units per faction (DuneFolk parity)  
+**Current Progress**: Frost Clans 4/7, Ice Dwellers 3/7
 
 ---
 
-## Notes for Ice Factions
+## 🔧 **Implementation Knowledge Base**
 
-**Consider these ice-themed mechanics:**
-- **Freeze attacks:** Slows enemy movement/attacks
-- **Ice shield:** Temporary damage resistance
-- **Blizzard summoning:** Area effect abilities
-- **Cold resistance:** High resistance to cold/pierce, weakness to fire
-- **Ice terrain creation:** Ability to create temporary ice terrain
-- **Hibernate:** Healing ability that requires skipping a turn
-- **Frostbite:** Damage over time effect
+### **Common Errors & Solutions**
 
-**Terrain considerations:**
-- Excellent performance on snow/ice
-- Good performance on mountains/tundra  
-- Poor performance in desert/swamp
-- Unique interaction with frozen water tiles
+#### **❌ Units Not Loading in Multiplayer Era**
+- **Error**: Drake units appear instead of custom Ice Age units in era selection
+- **Root Cause**: Missing `[units][/units]` wrapper tags in era configuration
+- **Solution**: Always wrap unit definitions with proper `[units]` and `[/units]` tags
+- **File**: `eras/*.cfg`
+- **Example Fix**:
+  ```wml
+  [era]
+      [multiplayer_side]
+          [ai]
+              recruitment_pattern=fighter,archer,scout
+          [/ai]
+          [units]
+              {~add-ons/wesnoth.iceage/units/frost_clans.cfg}
+              {~add-ons/wesnoth.iceage/units/ice_dwellers.cfg}
+          [/units]
+      [/multiplayer_side]
+  [/era]
+  ```
 
-**Strategic themes:**
-- **Faction 1:** Defensive, fortification-focused, shamanic magic
-- **Faction 2:** Aggressive, beast-mastery, primal ice magic
+#### **❌ Unit Images Not Loading**
+- **Error**: Units appear with placeholder images or wrong sprites
+- **Common Causes**: 
+  - Incorrect image file paths in unit configuration
+  - Missing image files in expected directories
+  - Case sensitivity issues in file names
+- **Prevention**: Always verify image paths match actual file locations
 
----
+#### **❌ Unit Advancement Not Working**
+- **Error**: Units cannot upgrade to next level
+- **Common Causes**:
+  - Incorrect `advances_to` references
+  - Missing target unit definitions
+  - Typos in unit IDs
+- **Prevention**: Ensure all advancement chains are properly linked
 
-## Template Usage Instructions
+#### **❌ Custom Abilities Not Functioning**
+- **Error**: Special abilities like "snow_camouflage" not working
+- **Common Causes**:
+  - Abilities defined but not properly referenced in unit files
+  - Missing ability implementation in `[abilities]` section
+- **Prevention**: Always test abilities in-game after implementation
 
-1. Choose your two faction names from the mythology research
-2. Fill in the template for each faction with 8-12 unit types each
-3. Ensure each faction has distinct play styles and unit compositions
-4. Balance units against existing Wesnoth factions
-5. Design unique ice-themed abilities and resistances
-6. Consider how units will upgrade/advance between levels
+#### **❌ Faction Not Appearing in Game**
+- **Error**: Faction doesn't show up in multiplayer or scenario selection
+- **Common Causes**:
+  - Missing faction registration in `_main.cfg`
+  - Incorrect file inclusion paths
+  - Syntax errors in configuration files
+- **Prevention**: Verify all file includes and test faction loading
+
+### **Testing Checklist for Each Unit**
+1. **⚙️ Configuration Files Created**: Unit appears in unit list and can be recruited
+2. **🎯 Combat Testing**: All attacks work correctly with proper damage/accuracy
+3. **🚶 Movement Testing**: Unit moves correctly on different terrain types
+4. **⬆️ Advancement Testing**: Unit can advance to next level (if applicable)
+5. **🎨 Animation Testing**: All animations play correctly (attack, death, idle)
+6. **🛡️ Resistance Testing**: Damage resistances work as intended
+7. **⭐ Ability Testing**: Special abilities function properly
+8. **🏆 Complete Integration**: Unit works seamlessly in multiplayer matches
+
+### **File Organization Standards**
+- **Unit Configs**: `units/[faction_name].cfg`
+- **Faction Configs**: `factions/[faction_name].cfg` 
+- **Era Configs**: `eras/[era_name].cfg`
+- **Documentation**: `unit-designs/[unit-line-name].md`
+- **Always backup files before major changes**: Create `.backup` copies
+
+### **WML Syntax Reminders**
+- Always close tags properly: `[tag]` must have `[/tag]`
+- Use underscores in IDs: `frost_warrior` not `frost-warrior`
+- File paths use forward slashes: `images/units/frost/warrior.png`
+- Include files with proper syntax: `{~add-ons/wesnoth.iceage/file.cfg}`
+

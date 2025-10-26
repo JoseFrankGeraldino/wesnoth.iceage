@@ -100,6 +100,46 @@ The campaigns are currently in a **playable prototype state** with basic structu
   - Check AI behavior and difficulty scaling
 
 #### **🔧 Technical Validation**
+- [ ] **Era System Testing** ⚡ *HIGH PRIORITY* 🚨 **CRITICAL ISSUES FOUND**
+  - ✅ All 4 eras appear in multiplayer setup (including test era)
+  - ✅ "Default + Dunefolk + Ice Age" era shows all 9 factions correctly  
+  - 🚨 **CRITICAL**: Frost Clans shows "Random" option but no leader units selectable
+  - 🚨 **CRITICAL**: Ice Dwellers shows no "Random" option and no leader units
+  - 🚨 **CRITICAL**: Test era "Frost Clans (Test)" recruits DRAKE units instead of Ice Age units
+  - 🚨 **ROOT ISSUE**: Faction mapping completely broken - wrong units being loaded
+  - 🚨 **HYPOTHESIS**: Ice Age units not loading at all, falling back to default Drake faction
+  - [ ] Validate faction recruitment lists work properly (blocked by unit loading failure)
+  - [ ] Test random leader selection functions correctly (blocked by unit loading failure)
+
+- [ ] **Faction Configuration Testing** ⚡ *HIGH PRIORITY*
+  - Verify all 16 Frost Clans unit types are recognized
+  - Test Frost Clans recruitment (Frost Warrior, Frost Scout, Pack_Rider, Bear_Rider)
+  - Verify all 7 Ice Dwellers unit types are recognized
+  - Test Ice Dwellers recruitment (Ice Elemental, Frost Wraith, Ice Beast)
+  - Validate leader options work (Frost Chieftain, Frost_Warlord, Ancient_Bear_Lord, Primal_Bear_Champion)
+
+- [ ] **Unit Progression Testing** ⚡ *HIGH PRIORITY*
+  - Test all 4-level advancement chains work correctly
+  - Verify Pack_Rider → Wolf_Ranger → Storm_Rider → Blizzard_Lord progression
+  - Test Bear_Rider → Dire_Bear_Rider → Ancient_Bear_Lord → Primal_Bear_Champion progression
+  - Validate custom alignments (solaris_noctis, twilight) function properly
+  - Test pack frenzy mechanics with random adjacent targeting
+
+- [ ] **WML Syntax Validation** ⚡ *HIGH PRIORITY* 🎯 **ROOT CAUSE IDENTIFIED**
+  - ✅ **VERIFIED**: All 23 units properly defined in code
+  - ✅ **VERIFIED**: All image files are valid standard Wesnoth images  
+  - ✅ **VERIFIED**: Loading order is correct (units → eras → campaigns)
+  - ✅ **VERIFIED**: Leader units (`Frost Chieftain`, `Frost_Warlord`, etc.) exist and properly defined
+  - 🚨 **ROOT CAUSE**: Custom alignments (`solaris_noctis`, `twilight`) not recognized by Wesnoth 1.18
+  - 🚨 **RESULT**: Unit files rejected during parsing, causing fallback to Drake faction
+  - 🎯 **SOLUTION**: Replace custom alignments with standard ones (`lawful`, `neutral`) for immediate fix
+  - [ ] Test custom movement types (bear_mounted, snow_dog_mounted) load correctly  
+  - [ ] Validate custom abilities don't cause crashes
+  - � **CONFIRMED ASSETS**:
+    - 16 Frost Clans units using standard Wesnoth human-loyalist images ✅
+    - 7 Ice Dwellers units using standard Wesnoth undead/monster images ✅
+    - No custom image files required ✅
+
 - [ ] **Cross-platform compatibility**
   - Test on Windows, Mac, Linux if possible
   - Verify different Wesnoth 1.18 versions

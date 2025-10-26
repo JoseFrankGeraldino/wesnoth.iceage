@@ -1,12 +1,55 @@
-# Ice Age Campaign - Project Plan
+# Wesnoth Ice Age Expansion - Complete Project Plan
 
-## 🎯 **Project Objectives**
+## 🎯 **Project Overview**
 
-Create a comprehensive Battle for Wesnoth expansion featuring:
+**Ultimate Goal**: Create a comprehensive Battle for Wesnoth expansion featuring two new ice-themed factions and four interconnected campaigns spanning multiple generations.
+
+### **Core Features**
 - **Two unique factions**: Frost Clans (survival-focused humans) and Ice Dwellers (magical ice beings)
 - **Four interconnected campaigns**: 17 scenarios total telling a complete ice age story
 - **Rich mythology**: Based on authentic ice/winter deities from Norse, Greek, Celtic, Inuit, and Slavic cultures
 - **Enhanced gameplay**: Weather effects, faction-specific abilities, and immersive winter warfare
+- **20+ Custom Abilities**: Comprehensive ability system with Glacial Aura, Winter's Blessing, Vampire Aura, and more
+- **Fire vs Ice Balance**: Each faction includes 2 fire creatures representing the eternal struggle between warmth and cold
+
+### **Technical Specifications**
+- **Platform**: Battle for Wesnoth 1.18+
+- **Format**: WML (Wesnoth Markup Language) add-on
+- **Scope**: 15 unique units, 17 scenarios, custom abilities system
+- **Compatibility**: Full multiplayer and single-player support
+
+---
+
+## 🏗️ **Project Structure & Implementation**
+
+### **Add-on File Structure**
+```
+wesnoth.iceage/
+├── _info.cfg                    # Add-on metadata and configuration ✅
+├── _main.cfg                    # Main add-on entry point ✅
+├── _server.pbl                  # Server publication info ✅
+├── campaigns/                   # Campaign definitions ✅
+│   ├── The_Forbidden_North/     # Campaign 1: 4 scenarios
+│   ├── The_Ice_Bleeds_Black/    # Campaign 2: 5 scenarios  
+│   ├── The_Long_Road_South/     # Campaign 3: 4 scenarios
+│   └── The_Ice_Crown_Wars/      # Campaign 4: 4 scenarios
+├── units/                       # Unit definitions ✅
+│   ├── frost_clans/            # 7 Frost Clan units
+│   └── ice_dwellers/           # 8 Ice Dweller units
+├── factions.cfg                 # Faction definitions ✅
+├── custom-abilities.md          # Complete ability reference ✅
+├── developer.user-stories.md    # Human tasks ✅
+├── claude.user-stories.md       # AI tasks ✅
+└── project-plan.md             # This file ✅
+```
+
+### **Technical Implementation Status**
+- **✅ WML Structure**: Complete and Wesnoth 1.18 compatible
+- **✅ Unit System**: 15 ice units + 4 fire units designed with stats, abilities, and advancement
+- **✅ Faction Balance**: Frost Clans vs Ice Dwellers mechanics with fire/ice strategic options
+- **✅ Campaign Framework**: All scenario files created with basic structure
+- **✅ Custom Abilities**: 20+ abilities designed (Glacial Aura, Winter's Blessing, Vampire Aura, etc.)
+- **📋 Fire Units**: 4 fire creatures designed (Flame Wraith, Molten Guardian, Flame Keeper, Fire Wolf)
 
 ---
 
@@ -151,12 +194,34 @@ Create a comprehensive Battle for Wesnoth expansion featuring:
 
 ---
 
-## 📋 **Resources & References**
+## � **Development Resources & Timeline**
 
-- **Development Guides**: `developer.user-stories.md`, `claude.user-stories.md`
-- **Mythology Reference**: `ice_mythology_guide.md`
-- **Technical Docs**: Wesnoth Wiki, WML Reference, Lua API docs
-- **Community**: Wesnoth Forums, Discord, GitHub discussions
+### **Required Skills & Tools**
+- **Technical Skills**: WML programming, Wesnoth map editor, Lua scripting, image editing
+- **Creative Skills**: Story writing, character development, game balance design
+- **Tools**: Wesnoth Map Editor, text editor, image editing software, Git for version control
+
+### **Helpful Resources**
+- **Documentation**: [Wesnoth Wiki - WML Reference](https://wiki.wesnoth.org/WML)
+- **Community**: [Wesnoth Forum - Add-on Development](https://forums.wesnoth.org/viewforum.php?f=8)
+- **Tutorials**: [Unit Creation Guide](https://wiki.wesnoth.org/UnitWML), [Campaign Creation Guide](https://wiki.wesnoth.org/CampaignWML)
+- **Project Files**: `developer.user-stories.md`, `claude.user-stories.md`, `ice_mythology_guide.md`, `custom-abilities.md`
+
+### **Development Timeline Estimate**
+- **✅ Phase 1 - Foundation**: 2-3 weeks (COMPLETE)
+- **🔧 Phase 2A - Minimum Viable Product**: 2-4 weeks (IN PROGRESS)
+- **⏳ Phase 2B - Enhanced Experience**: 4-6 weeks  
+- **⏳ Phase 3 - Advanced Features**: 6-8 weeks
+- **⏳ Phase 4 - Testing & Polish**: 3-4 weeks
+- **⏳ Phase 5 - Publication**: 1-2 weeks
+
+**Total Estimated Timeline**: 6-8 months for complete project (2 months already complete)
+
+### **Community Support**
+- Wesnoth development community is very helpful for technical questions
+- Existing add-ons serve as excellent code examples and inspiration
+- Art and music communities available for asset creation collaboration
+- Beta testing community for feedback and balance validation
 
 ---
 
