@@ -24,24 +24,53 @@
 | Storm Rider | Frost Clans | 3 | 62 | 9 | 60 | 📝 | [Pack Rider Line](unit-designs/pack-rider-line-design.md) |
 | Blizzard Lord | Frost Clans | 4 | 78 | 10 | 85 | 📝 | [Pack Rider Line](unit-designs/pack-rider-line-design.md) |
 
-| **Bear Rider** | Frost Clans | 1 | 42 | 4 | 22 | 📝 | [Bear Rider Line](unit-designs/bear-rider-design.md) |
-| Dire Bear Rider | Frost Clans | 2 | 58 | 4 | 45 | 📝 | [Bear Rider Line](unit-designs/bear-rider-design.md) |
-| Ancient Bear Lord | Frost Clans | 3 | 74 | 5 | 70 | 📝 | [Bear Rider Line](unit-designs/bear-rider-design.md) |
-| Primal Bear Champion | Frost Clans | 4 | 92 | 5 | 100 | 📝 | [Bear Rider Line](unit-designs/bear-rider-design.md) |
-| **Iceguard Spearman** | Frost Clans | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Winterheart Shaman** | Frost Clans | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Snowfall Trapper** | Frost Clans | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Crystalborn Elemental** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Glacial Wraith** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Permafrost Beast** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Shimmer Sprite** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Hoarfrost Mage** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Icewall Guardian** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
-| **Coldmist Stalker** | Ice Dwellers | 1 | ? | ? | ? | 📝 | *To Be Created* |
+| **Bear Rider** | Frost Clans | 1 | 42 | 4 | 22 | 📝 | [Bear Rider Line](unit-designs/bear-rider/) |
+| Dire Bear Rider | Frost Clans | 2 | 58 | 4 | 45 | 📝 | [Bear Rider Line](unit-designs/bear-rider/) |
+| Ancient Bear Lord | Frost Clans | 3 | 74 | 5 | 70 | 📝 | [Bear Rider Line](unit-designs/bear-rider/) |
+| Primal Bear Champion | Frost Clans | 4 | 92 | 5 | 100 | 📝 | [Bear Rider Line](unit-designs/bear-rider/) |
+
+| **Walrus Rider** | Frost Clans | 1 | 45 | 5 | 24 | 📝 | [Walrus Rider Line](unit-designs/walrus-rider/) |
+| Tusked Corsair | Frost Clans | 2 | 62 | 5 | 48 | 📝 | [Walrus Rider Line](unit-designs/walrus-rider/) |
+| Leviathan Warden | Frost Clans | 3 | 80 | 6 | 75 | 📝 | [Walrus Rider Line](unit-designs/walrus-rider/) |
+
+| **Fire Spirit** | Frost Clans | 1 | 28 | 4 | 20 | 📝 | [Fire Spirit Line](unit-designs/fire-spirit/) |
+| Flame Spirit | Frost Clans | 2 | 42 | 4 | 36 | 📝 | [Fire Spirit Line](unit-designs/fire-spirit/) |
+| Inferno Avatar | Frost Clans | 3 | 56 | 5 | 54 | 📝 | [Fire Spirit Line](unit-designs/fire-spirit/) |
+
+| **Ice Spirit** | Frost Clans / Ice Dwellers | 1 | 32 | 4 | 22 | 📝 | [Ice Spirit Line](unit-designs/ice-spirit/) |
+| Blizzard Spirit | Frost Clans / Ice Dwellers | 2 | 46 | 4 | 40 | 📝 | [Ice Spirit Line](unit-designs/ice-spirit/) |
+| Glacial Avatar | Frost Clans / Ice Dwellers | 3 | 60 | 5 | 58 | 📝 | [Ice Spirit Line](unit-designs/ice-spirit/) |
+
+| **Darkness Spirit** | Ice Dwellers | 1 | 30 | 5 | 18 | 📝 | [Darkness Spirit Line](unit-designs/darkness-spirit/) |
+| Umbral Spirit | Ice Dwellers | 2 | 44 | 5 | 34 | 📝 | [Darkness Spirit Line](unit-designs/darkness-spirit/) |
+| Void Avatar | Ice Dwellers | 3 | 58 | 6 | 50 | 📝 | [Darkness Spirit Line](unit-designs/darkness-spirit/) |
+
+| **Young Yeti** | Ice Dwellers | 1 | 54 | 5 | 38 | 📝 | [Yeti Line](unit-designs/yeti/) |
+| Adult Yeti | Ice Dwellers | 2 | 84 | 5 | 75 | 📝 | [Yeti Line](unit-designs/yeti/) |
+| Elder Yeti | Ice Dwellers | 3 | 110 | 5 | 120 | 📝 | [Yeti Line](unit-designs/yeti/) |
+| Ancient Yeti | Ice Dwellers | 4 | 142 | 5 | 151 | 📝 | [Yeti Line](unit-designs/yeti/) |
+
+| **Iceguard Spearman** | Frost Clans | 1 | ? | ? | ? | 📝 | [Iceguard Spearman Line](unit-designs/iceguard-spearman/) |
+| **Winterheart Shaman** | Frost Clans | 1 | ? | ? | ? | 📝 | [Winterheart Shaman Line](unit-designs/winterheart-shaman/) |
+| **Snowfall Trapper** | Frost Clans | 1 | ? | ? | ? | 📝 | [Snowfall Trapper Line](unit-designs/snowfall-trapper/) |
+
+| **Crystalborn Elemental** | Ice Dwellers | 1 | ? | ? | ? | 📝 | [Crystalborn Elemental Line](unit-designs/crystalborn-elemental/) |
+| **Glacial Wraith** | Ice Dwellers | 1 | ? | ? | ? | 📝 | [Glacial Wraith Line](unit-designs/glacial-wraith/) |
+| **Permafrost Beast** | Ice Dwellers | 1 | ? | ? | ? | 📝 | [Permafrost Beast Line](unit-designs/permafrost-beast/) |
+| **Shimmer Sprite** | Ice Dwellers | 1 | ? | ? | ? | 📝 | [Shimmer Sprite Line](unit-designs/shimmer-sprite/) |
+| **Hoarfrost Mage** | Ice Dwellers | 1 | ? | ? | ? | 📝 | [Hoarfrost Mage Line](unit-designs/hoarfrost-mage/) |
+| **Icewall Guardian** | Ice Dwellers | 1 | ? | ? | ? | 📝 | [Icewall Guardian Line](unit-designs/icewall-guardian/) |
+| **Coldmist Stalker** | Ice Dwellers | 1 | ? | ? | ? | 📝 | [Coldmist Stalker Line](unit-designs/coldmist-stalker/) |
 
 **Recruitable Units**: Bold units are Level 1 (recruitable)  
-**Target**: 7 recruitable units per faction (DuneFolk parity)  
-**Current Progress**: Frost Clans 4/7, Ice Dwellers 3/7
+**Current Progress**: 
+- Frost Clans: 8/11 fully designed (Bear Rider, Pack Rider, Iceborn Warrior, Tundra Scout, Walrus Rider, Fire Spirit, Ice Spirit)
+- Ice Dwellers: 2/10 fully designed (Yeti, Darkness Spirit, Ice Spirit shared)
+- Ice Dwellers: 0/7 fully designed base units (all in planning phase)
+
+**Planning Status**:
+- Frost Clans: 3 units in planning phase (Iceguard Spearman, Winterheart Shaman, Snowfall Trapper)
+- Ice Dwellers: 7 units in planning phase (Crystalborn Elemental, Glacial Wraith, Permafrost Beast, Shimmer Sprite, Hoarfrost Mage, Icewall Guardian, Coldmist Stalker)
 
 ---
 
