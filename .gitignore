@@ -1,0 +1,63 @@
+# Generated assets and build artifacts
+sprites_output/
+output/
+input/
+build/
+dist/
+
+# Python scripts folder (development utilities, not tracked)
+scripts/
+*.pyc
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Docker build artifacts and models
+docker-setup/models/
+docker-setup/output/
+docker-setup/input/
+docker-setup/custom_nodes/
+docker-setup/user/
+*.img
+*.tar.gz
+
+# Development and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Wesnoth editor and game files
+*.pref
+*.log
+*.tmp
+
+# Model weights (too large, place manually)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# ComfyUI specific
+comfyui.db
+memory_log*.txt
+
+# OS specific
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temporary files
+temp/
+tmp/
+*.bak
+*.backup
+
+# Database files (if used)
+*.sqlite
+*.sqlite3
+
+# Editor backup files
+*.orig
