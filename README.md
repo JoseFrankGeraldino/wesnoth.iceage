@@ -1,6 +1,8 @@
+
 # Wesnoth: Ice Age Expansion
 
 A comprehensive Battle for Wesnoth expansion featuring two new ice-themed factions and four interconnected campaigns set in a frozen world.
+
 
 ## Project Overview
 
@@ -8,35 +10,23 @@ This expansion introduces the frozen northern lands beyond the known world, wher
 
 ## Features
 
-### Two New Factions
+
+### Two Unique Factions
 
 #### 1. Frost Clans
-Hardy northern warriors who have adapted to life in the frozen wastes. They are fierce fighters who use the cold to their advantage.
-
-**Unit Types:**
-- Frost Warrior → Frost Champion → Frost Chieftain
-- Frost Scout → Frost Ranger
-- Frost Rider → Frost Knight
-
-**Faction Traits:**
-- Balanced faction with good infantry, ranged, and cavalry units
-- Cold damage on most attacks
-- Neutral alignment
+Survival-focused humans adapted to the harsh ice age. They feature:
+- Bear Rider, Iceguard Spearman, Hoarfrost Mage, Pack Rider, Iceborn Warrior, Snowfall Trapper, Icewall Guardian
+- Balanced infantry, cavalry, and ranged units
+- Cold-themed abilities and neutral alignment
 
 #### 2. Ice Dwellers
-Mystical beings born from the eternal ice, commanding the powers of frost and cold.
+Magical ice beings with unique powers. They feature:
+- Crystalborn Elemental, Glacial Wraith, Ice Spirit, Darkness Spirit, Shimmer Sprite, Permafrost Beast, Fire Spirit, Walrus Rider
+- Magical, spectral, and beast units
+- Strong cold resistance, unique abilities, and fire/ice balance
 
-**Unit Types:**
-- Ice Elemental → Greater Ice Elemental → Frost Lord
-- Frost Wraith → Frost Banshee
-- Ice Beast → Frost Behemoth
 
-**Faction Traits:**
-- Magical and spectral units
-- Strong cold resistance but weak to fire
-- Powerful but expensive units
-
-### Implemented Campaigns (Current Status)
+### Campaigns (Current Status)
 
 #### 1. The Frozen Wastes (Introductory)
 **Difficulty:** Easy  
@@ -66,13 +56,13 @@ Experience the ice age from the perspective of Glacius, an ancient Frost Lord. D
 
 With the Frost King defeated, work with the Ice Dwellers to restore balance to the world and end the eternal winter once and for all.
 
-### Future Expansion Plans
-The current implementation provides a solid foundation. Future plans include expanding to the original vision:
 
-- **Extended campaign series** with multi-generational storyline
-- **Additional scenarios** bringing total to 70+
-- **Complex political intrigue** involving all major Wesnoth factions
-- **Enhanced mechanics** and special abilities
+### Future Expansion Plans
+Future plans include:
+- Extended campaign series with multi-generational storyline
+- Additional scenarios
+- Enhanced mechanics and special abilities
+
 
 ## Installation
 
@@ -85,21 +75,17 @@ The current implementation provides a solid foundation. Future plans include exp
 4. The campaigns will appear in the campaign selection menu
 5. The factions will be available in multiplayer
 
+
 ## Development Status
 
-- ✅ **Phase 1:** Foundation & Design - Mythology research, unit templates, campaign summaries
-- ✅ **Phase 2:** Technical Implementation - WML structure, unit coding, basic campaigns
-- 📋 **Phase 3:** Campaign Enhancement - Expanded scenarios, advanced scripting
-- ⏳ **Phase 4:** Asset Creation - Custom graphics, sounds, portraits
-- ⏳ **Phase 5:** Testing & Balancing - Community testing, refinement
-- ⏳ **Phase 6:** Extended Content - Multi-generational campaigns
+- 🔧 **Phase 1:** Foundation & Design – In Progress
+- 🔧 **Phase 2:** Technical Implementation – In Progress
+- 📋 **Phase 3:** Campaign Enhancement – Planned
+- ⏳ **Phase 4:** Asset Creation – Planned
+- ⏳ **Phase 5:** Testing & Balancing – Planned
+- ⏳ **Phase 6:** Extended Content – Planned
 
-## Project Files
 
-- `faction_units_template.md` - Unit design template with Dunefolk reference
-- `campaign_summaries.md` - Detailed summaries of planned expanded campaigns
-- `project_plan.md` - Complete development roadmap and technical details
-- `STRUCTURE.md` - Technical documentation of current implementation
 
 ## Story Overview
 
@@ -107,15 +93,17 @@ The world is gripped by an eternal winter. The Frost Clans, hardy northern warri
 
 Through four interconnected campaigns, experience an epic tale of survival, alliance, and the struggle to restore balance between ice and warmth.
 
+
 ## Credits
 
-**Author:** Jose Geraldino  
-**Version:** 1.0.0  
-**License:** GPL v2+ (code), CC-BY-SA (art assets)
+**Authors:** Jose Geraldino, Nathanael Geraldino, Netzer Geraldino  
+**Version:** 0.0.1  
+**License:** Same license as Battle for Wesnoth (GPL v2+)
+
 
 ## Technical Details
 
-- Compatible with Battle for Wesnoth 1.14+
+- Compatible with Battle for Wesnoth 1.18+
 - Uses standard Wesnoth WML (Wesnoth Markup Language)
 - Current: 17 scenarios across 4 campaigns
 - 15 unique unit types (7 Frost Clans, 8 Ice Dwellers)
@@ -130,7 +118,7 @@ Contributions are welcome! Feel free to:
 
 ## Version History
 
-### 1.0.0 (2025)
-- Initial release
+### 0.0.1 (2025)
+- Initial plan
 - Two factions: Frost Clans and Ice Dwellers
 - Four campaigns with 17 total scenarios
