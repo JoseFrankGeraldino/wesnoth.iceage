@@ -237,7 +237,7 @@ first_scenario=01_The_Ice_Throne
 
 ### In Each Scenario File
 ```wml
-map_data="{~add-ons/wesnoth.iceage/campaigns/rise_of_the_frost_king/maps/##_scenario_name.map}"
+map_file=~add-ons/wesnoth.iceage/campaigns/rise_of_the_frost_king/maps/##_scenario_name.map
 ```
 
 ### Between Scenarios
