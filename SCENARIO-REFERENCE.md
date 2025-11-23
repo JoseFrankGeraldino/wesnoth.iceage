@@ -81,7 +81,7 @@ Each scenario file must contain:
 [scenario]
     id=##_Scenario_ID
     name= _ "##. Scenario Name"
-    map_data="{~add-ons/wesnoth.iceage/campaigns/rise_of_the_frost_king/maps/##_scenario_name.map}"
+    map_file="add-ons/wesnoth.iceage/campaigns/rise_of_the_frost_king/maps/##_scenario_name.map"
     
     turns=NUMBER
     victory_when_enemies_defeated=yes
