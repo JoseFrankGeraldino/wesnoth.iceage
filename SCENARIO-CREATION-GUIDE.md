@@ -84,7 +84,7 @@ Create a new file with the following structure:
 [scenario]
     id=01_The_Ice_Throne
     name= _ "01. The Ice Throne"
-    map_data="{~add-ons/wesnoth.iceage/campaigns/rise_of_the_frost_king/maps/01_the_ice_throne.map}"
+    map_file="add-ons/wesnoth.iceage/campaigns/rise_of_the_frost_king/maps/01_the_ice_throne.map"
     
     # Scenario timing
     turns=20
