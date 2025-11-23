@@ -118,7 +118,7 @@ Contributions are welcome! Feel free to:
 
 ## Version History
 
-### 1.0.0 (2025)
-- Initial release
+### 0.0.1 (2025)
+- Initial plan
 - Two factions: Frost Clans and Ice Dwellers
 - Four campaigns with 17 total scenarios
