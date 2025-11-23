@@ -111,7 +111,8 @@ The following references are **already in place** in `scenarios/_main.cfg`:
 
 6. **Game Starts**
    - First scenario (01_The_Ice_Throne) is loaded and played
-   - Its map file is automatically loaded from the path specified in `map_file` field
+   - Its map file is automatically loaded from the path specified in `map_data` field
+
 
 7. **Scenario Progression**
    - When victory achieved, `next_scenario` field determines next scenario
